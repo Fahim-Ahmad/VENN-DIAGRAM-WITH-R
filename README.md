@@ -30,7 +30,7 @@ venn.diagram(
 )
 ```
 
-![venn_diagram_1](https://github.com/Fahim-Ahmad/VENN-DIAGRAM-WITH-R/blob/main/venn_diagram_1.png)
+[venn_diagram_1](https://github.com/Fahim-Ahmad/VENN-DIAGRAM-WITH-R/blob/main/venn_diagram_1.png)
 
 ### change line wide, line type, line color, and circle colors
 
