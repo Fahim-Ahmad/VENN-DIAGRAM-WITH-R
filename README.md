@@ -5,7 +5,7 @@
 library(VennDiagram)
 ```
 
-# Generate a data frame with 3 columns of 150 random words
+### Generate a data frame with 3 columns of 150 random words
 
 ```
 set.seed(10000)
@@ -21,7 +21,7 @@ sum(df$set_1 %in% df$set_3) # 25
 sum(df$set_2 %in% df$set_3) # 24
 ```
 
-# creating a simple Venn diagram, the output will be in the working directory
+### creating a simple Venn diagram, the output will be in the working directory
 
 ```
 venn.diagram(
@@ -32,7 +32,7 @@ venn.diagram(
 
 ![](venn_diagram_1.png)
 
-# change line wide, line type, line color, and circle colors
+### change line wide, line type, line color, and circle colors
 
 ```
 venn.diagram(
@@ -47,7 +47,7 @@ venn.diagram(
 ```
 ![](venn_diagram_2.png)
 
-# customize labels size, labels distance from the circle, and labels positions
+### customize labels size, labels distance from the circle, and labels positions
 
 ```
 venn.diagram(
@@ -71,7 +71,7 @@ venn.diagram(
 
 ![](venn_diagram_3.png)
 
-# change labels names
+### change labels names
 
 ```
 venn.diagram(
@@ -94,5 +94,5 @@ venn.diagram(
   cat.default.pos = "outer" # default is "outer", change it to "text" to have the labels inside the circles
 )
 ```
-![](venn_diagram_4.png)
+![]("venn_diagram_4.png")
 
